@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  font-size: 1rem;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
   color: grey;
@@ -44,7 +43,7 @@ h2 {
   color: hsl(223, 47%, 23%);
 }
 .card {
-  width: 20rem;
+  max-width: 20rem;
   background-color: white;
   border-radius: 10px;
   overflow: hidden;
